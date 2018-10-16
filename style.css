@@ -15,16 +15,16 @@ body, html {
 	background-size: cover;
 }
 
-.img1 { background-image: url("img/background1"); }
-.img2 { background-image: url("img/background2"); }
-.img3 { background-image: url("img/background3"); }
-.img4 { background-image: url("img/background4"); }
-.img5 { background-image: url("img/background5"); }
-.img6 { background-image: url("img/background6"); }
-.img7 { background-image: url("img/background7"); }
-.img8 { background-image: url("img/background8"); }
-.img9 { background-image: url("img/background9"); }
-.img10 { background-image: url("img/background10"); }
+.img1 { background-image: url("img/2.jpg"); }
+.img2 { background-image: url("img/9.png"); }
+.img3 { background-image: url("img/4.jpg"); }
+.img4 { background-image: url("img/3.jpg"); }
+.img5 { background-image: url("img/1.jpg"); }
+.img6 { background-image: url("img/8.jpg"); }
+.img7 { background-image: url("img/7.jpg"); }
+.img8 { background-image: url("img/10.jpg"); }
+.img9 { background-image: url("img/5.jpg"); }
+.img10 { background-image: url("img/6.png"); }
 
 .bg-text {
 	background-color: rgb(0, 0, 0); /* Fallback Color */
@@ -39,6 +39,18 @@ body, html {
 	z-index: 2;
 	width: 300px;
 	padding: 20px;
+	height: 250px;
+	text-align: center;
+}
+
+.bg-text2 {
+	color: white;
+	font-size: 50px;
+	position: fixed;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
 	text-align: center;
 }
 
@@ -56,9 +68,11 @@ body, html {
 	float: left;
 	color: #f2f2f2;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 10px 14px;
 	text-decoration: none;
 	font-size: 17px;
+	width: 25%;
+	font-size: 23px;
 }
 
 .topnav a:hover {

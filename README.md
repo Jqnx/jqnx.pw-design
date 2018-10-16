@@ -1,1 +1,1 @@
-# jqnx.pw-design
+# Web Design for Jqnx.pw
