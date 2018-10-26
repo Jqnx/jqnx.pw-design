@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Jqnx - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="bgimage img1"></div>
+    <div class="bgimage img2"></div>
+    <div class="bgimage img3"></div>
+    <div class="bgimage img4"></div>
+
+    <div class="topnav" id="myTopnav">
+  	  <a href="index.html">Home</a>
+  	  <a class="active" href="portfolio.html">Portfolio</a>
+  	  <a href="test.html">Test</a>
+  	  <a href="#">Contact</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  			<i class="fa fa-bars"></i>
+  		</a>
+  	</div>
+
+  	<script>
+  		function myFunction() {
+  			var x = document.getElementById("myTopnav");
+  			if (x.className === "topnav") {
+  				x.className += " responsive";
+  			} else {
+  				x.className = "topnav";
+  			}
+  		}
+  	</script>
+
+  </body>
+
+</html>
