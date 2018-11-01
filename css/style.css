@@ -94,6 +94,15 @@ body, html {
 	display: none;
 }
 
+.discord {
+	width: 250px;
+	height: 400px;
+	border-radius: 3px;
+	position: relative;
+	top: 24%;
+	left: 83%;
+}
+
 /*Custom Scrollbar*/
 ::-webkit-scrollbar {
 	width: 10px;
