@@ -32,18 +32,18 @@ body, html {
 	background-color: rgb(0, 0, 0); /* Fallback Color */
 	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
-	border: 7px solid #f1f1f1;
+	border: .45vw solid #f1f1f1;
 	font-size: 7vw;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
-	width: 300px;
-	padding: 20px;
-	height: 250px;
+	width: 17vw;
+	padding: 1.3vw;
+	height: 15vw;
 	text-align: center;
-	border-radius: 2px;
+	border-radius: .3vw;
 }
 
 .bg-text2 {
@@ -65,8 +65,8 @@ body, html {
 	width: 50%;
 	left: 25%;
 	top: 1%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 7px;
+	box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
+	border-radius: .35vw;
 }
 
 .topnav a {
@@ -95,27 +95,27 @@ body, html {
 }
 
 .discord {
-	width: 250px;
-	height: 400px;
-	border-radius: 3px;
-	position: relative;
-	top: 24%;
-	left: 83%;
+	width: 15vw;
+	height: 35vw;
+	position: sticky;
+	top: 10vw;
+	left: 83.5vw;
+	box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
 }
 
 /*Custom Scrollbar*/
 ::-webkit-scrollbar {
-	width: 10px;
+	width: .6vw;
 }
 
 ::-webkit-scrollbar-track {
 	background: #ddd;
-	border-radius: 20px;
+	border-radius: 1.3vw;
 }
 
 ::-webkit-scrollbar-thumb {
 	background: #666;
-	border-radius: 20px;
+	border-radius: 1.3vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
