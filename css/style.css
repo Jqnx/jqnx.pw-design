@@ -1,11 +1,13 @@
 body, html {
 	height: 100%;
 	margin: 0;
+	padding: 0;
 	font-family: 'Indie Flower', cursive;
 	}
 
 * {
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 .bg-image {
@@ -60,7 +62,6 @@ body, html {
 .topnav {
 	background-color: rgba(51, 51, 51, 0.6);
 	overflow: hidden;
-	top: 0;
 	position: fixed;
 	width: 50%;
 	left: 25%;
@@ -86,7 +87,7 @@ body, html {
 }
 
 .topnav a.active {
-	background-color: plum;
+	background-color: rgba(221, 160, 221, 1);
 	color: white;
 }
 
