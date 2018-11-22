@@ -21,39 +21,6 @@ html, body {
 .img3 { background-image: url("img/13.jpg"); }
 .img4 { background-image: url("img/11.jpg"); }
 
-.topnav {
-	background-color: rgba(51, 51, 51, 0.6);
-	overflow: hidden;
-	position: fixed;
-  top: 1%;
-	width: 50%;
-	left: 25%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border-radius: 7px;
-}
-
-.topnav a {
-	float: left;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 10px 14px;
-	text-decoration: none;
-	font-size: 17px;
-	width: 25%;
-	font-size: 23px;
-  font-family: 'Indie Flower', cursive;
-}
-
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-.topnav a.active {
-	background-color: rgb(102, 153, 255);
-	color: white;
-}
-
 .topnav .icon {
 	display: none;
 }
@@ -86,4 +53,64 @@ html, body {
 ::selection {
 	color: white;
 	background: #808080;
+}
+
+/*Media Queries*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  .topnav {
+  	background-color: rgba(51, 51, 51, 0.6);
+  	overflow: hidden;
+  	position: fixed;
+    top: 1%;
+  	width: 50%;
+  	left: 25%;
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	border-radius: 7px;
+  }
+
+  .topnav a {
+  	float: left;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 10px 14px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	width: 25%;
+  	font-size: 23px;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .topnav a:hover {
+  	background-color: #ddd;
+  	color: black;
+  }
+
+  .topnav a.active {
+  	background-color: rgb(102, 153, 255);
+  	color: white;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
