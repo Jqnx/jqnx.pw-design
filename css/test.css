@@ -24,20 +24,20 @@ html, body {
 }
 
 .footer {
-  background-color: #ffffff;
-  position: relative;
-  height: auto;
-  width: auto;
+  background-color: #cbcbcb;
+  height: 80px;
+  min-width: 100%;
   padding: 5px;
-  top: 55vw;
+  position: absolute;
+  bottom: -10%;
   box-shadow: 10px -10px 50px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 4px;
 }
 
 .footer p {
   font-family: 'Noto Sans', cursive;
   font-size: 20px;
   text-align: center;
-  border-radius: 5px;
 }
 
 /*Custom Scrollbar*/
@@ -106,6 +106,7 @@ html, body {
   	width: 25%;
   	font-size: 23px;
     font-family: 'Indie Flower', cursive;
+    transition: color, .3s;
   }
 
   .topnav a:hover {
