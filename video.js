@@ -1,5 +1,5 @@
 var videoPlayer= document.getElementById('video');
-videoPlayer.volume = 0.1;
+videoPlayer.volume = 0.2;
 
 function playIt(){
 videoPlayer.play();
