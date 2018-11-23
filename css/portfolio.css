@@ -91,6 +91,7 @@ html, body {
   	width: 25%;
   	font-size: 23px;
     font-family: 'Indie Flower', cursive;
+    transition: color, .3s;
   }
 
   .topnav a:hover {
