@@ -43,20 +43,22 @@ html, body {
 /*Custom Scrollbar*/
 ::-webkit-scrollbar {
 	width: 10px;
+	background: #555;
 }
 
 ::-webkit-scrollbar-track {
-	background: #ddd;
-	border-radius: 20px;
+	background: #555;
+	border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #666;
+	background: rgba(255, 80, 80, 0.9);
 	border-radius: 20px;
+  transition: color, .3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #555;
+	background: rgba(205, 55, 55, 0.9);
 }
 
 /*Custom Selection Color*/
