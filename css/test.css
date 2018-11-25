@@ -9,11 +9,12 @@ html, body {
 }
 
 .video_container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -100;
 }
 
 .video_container > video {
@@ -41,7 +42,7 @@ html, body {
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 /*Custom Scrollbar*/
@@ -80,7 +81,9 @@ html, body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  .topnav > a {
+    display: none;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -89,6 +92,12 @@ html, body {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  .topnav > a {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
 
   .topnav {
@@ -127,11 +136,19 @@ html, body {
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+
+}
+
 @media only screen and (min-width: 992px) {
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+
+}
+
 @media only screen and (min-width: 1200px) {
 
 }
