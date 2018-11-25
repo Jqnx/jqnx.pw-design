@@ -30,36 +30,36 @@ body, html {
 .img9 { background-image: url("img/5.jpg"); }
 .img10 { background-image: url("img/6.png"); }
 
-.bg-text {
+.box {
 	background-color: rgb(0, 0, 0); /* Fallback Color */
 	background-color: rgba(0, 0, 0, 0.4);
-	color: white;
 	border: 8px solid #f1f1f1;
-	font-size: 125px;
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	z-index: 2;
-	width: 300px;
-	padding: 15px;
-	height: 250px;
-	text-align: center;
 	border-radius: 5px;
 	cursor: default;
-	transition: color, .3s;
+	z-index: 1;
 }
 
-.bg-text:hover {
+#first-name {
+	color: white;
+	position: fixed;
+	z-index: 2;
+	text-align: center;
+	cursor: default;
+	transition: color, .3s;
+	transform: translate(-50%, -50%);
+}
+
+#first-name:hover {
 	color: #EA476D;
 }
 
-.bg-text2 {
+#last-name {
 	color: white;
-	font-size: 65px;
 	position: fixed;
-	top: 57%;
-	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
 	text-align: center;
@@ -67,7 +67,7 @@ body, html {
 	cursor: default;
 }
 
-.bg-text2:hover {
+#last-name:hover {
 	color: rgba(221, 160, 221, 1);
 }
 
@@ -107,11 +107,62 @@ body, html {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+	.discord {
+		display: none;
+	}
+
+	.topnav > a {
+		display: none;
+	}
+
+	.box {
+			width: 225px;
+			height: 175px;
+	}
+
+	#first-name {
+			font-size: 90px;
+			top: 40%;
+			left: 50%;
+	}
+
+	#last-name {
+			font-size: 40px;
+			top: 51%;
+			left: 50%;
+	}
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+	.box {
+		width: 225px;
+		height: 175px;
+	}
+
+	#first-name {
+			font-size: 90px;
+			top: 40%;
+			left: 50%;
+	}
+
+	#last-name {
+			font-size: 40px;
+			top: 51%;
+			left: 50%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.discord {
+		display: none;
+	}
+
+	.topnav > a {
+		display: none;
+	}
 
 }
 
@@ -126,7 +177,7 @@ body, html {
 		left: 25%;
 		top: 1%;
 		box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
-		border-radius: .35vw;
+		border-radius: 5px;
 	}
 
 	.topnav a {
@@ -151,21 +202,79 @@ body, html {
 		color: white;
 	}
 
-.discord {
-	width: 15vw;
-	height: 35vw;
-	position: sticky;
-	top: 10vw;
-	left: 83.5vw;
-	box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
-}
+	.box {
+		width: 275px;
+		height: 225px;
+	}
+
+	#first-name {
+			font-size: 105px;
+			top: 38%;
+			left: 50%;
+	}
+
+	#last-name {
+			font-size: 47px;
+			top: 51%;
+			left: 50%;
+	}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
 
+}
+
+@media only screen and (min-width: 992px) {
+	.box {
+		width: 300px;
+		height: 250px;
+	}
+
+	#first-name {
+			font-size: 125px;
+			top: 36%;
+			left: 50%;
+	}
+
+	#last-name {
+			font-size: 55px;
+			top: 51%;
+			left: 50%;
+	}
+}
+
+/*Max Width of 1200px*/
+@media screen and (max-width: 1200px) {
+	.discord {
+		display: none;
+	}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+	.discord {
+		width: 250px;
+		height: 500px;
+		top: 230px;
+		right: 10px;
+		position: absolute;
+		box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
+	}
 
+	.box {
+		width: 300px;
+		height: 250px;
+	}
+
+	#first-name {
+			font-size: 125px;
+			top: 36%;
+			left: 50%;
+	}
+
+	#last-name {
+			font-size: 55px;
+			top: 51%;
+			left: 50%;
+	}
 }
