@@ -9,6 +9,7 @@ var videos = [
 "video2",
 "video3",
 "video4",
+"video5",
 ], videos = videos[Math.floor(Math.random() * videos.length)];
 
 videoPlayer.src = "css/videos/" + videos + ".mp4";
