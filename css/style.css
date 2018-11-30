@@ -132,6 +132,26 @@ body, html {
 			top: 51%;
 	}
 
+	#mscbtn {
+		text-decoration: none;
+		background-color: rgba(84, 84, 84, 1);
+		color: rgb(255, 255, 255);
+		padding: 6px 10px 6px 10px;
+		border: 2px solid #CCCCCC;
+		border-radius: 2px;
+		position: fixed;
+		top: 63%;
+		left: 50%;
+		font-size: 25px;
+		transition: .5s ease;
+		font-weight: bold;
+		transform: translate(-50%, -50%);
+	}
+
+	#mscbtn:hover {
+		color: #5E5096;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -151,6 +171,26 @@ body, html {
 			top: 51%;
 	}
 
+	#mscbtn {
+		text-decoration: none;
+		background-color: rgba(84, 84, 84, 1);
+		color: rgb(255, 255, 255);
+		padding: 6px 10px 6px 10px;
+		border: 2px solid #CCCCCC;
+		border-radius: 2px;
+		position: fixed;
+		top: 63%;
+		left: 50%;
+		font-size: 25px;
+		transition: .5s ease;
+		font-weight: bold;
+		transform: translate(-50%, -50%);
+	}
+
+	#mscbtn:hover {
+		color: #5E5096;
+		background-color: rgba(255, 255, 255, 0.3);
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -215,8 +255,32 @@ body, html {
 			top: 51%;
 	}
 
+	#mscbtn {
+		text-decoration: none;
+		background-color: rgba(84, 84, 84, 1);
+		color: rgb(255, 255, 255);
+		padding: 6px 10px 6px 10px;
+		border: 2px solid #CCCCCC;
+		border-radius: 2px;
+		position: fixed;
+		top: 66%;
+		left: 50%;
+		font-size: 25px;
+		transition: .5s ease;
+		font-weight: bold;
+		transform: translate(-50%, -50%);
+	}
+
+	#mscbtn:hover {
+		color: #5E5096;
+		background-color: rgba(255, 255, 255, 0.3);
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (max-width: 992px) {
+	.discord {
+		display: none;
+	}
 
 }
 
@@ -235,6 +299,26 @@ body, html {
 			font-size: 55px;
 			top: 51%;
 	}
+
+	#mscbtn {
+		text-decoration: none;
+		background-color: rgba(84, 84, 84, 1);
+		color: rgb(255, 255, 255);
+		padding: 6px 10px 6px 10px;
+		border: 2px solid #CCCCCC;
+		border-radius: 2px;
+		position: fixed;
+		top: 68%;
+		left: 50%;
+		font-size: 25px;
+		transition: .5s ease;
+		font-weight: bold;
+		transform: translate(-50%, -50%);
+	}
+
+	#mscbtn:hover {
+		color: #5E5096;
+		background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*Max Width of 1200px*/
@@ -270,7 +354,24 @@ body, html {
 			top: 51%;
 	}
 
-	@media screen and (min-height: 1080px) {
+	#mscbtn {
+		text-decoration: none;
+		background-color: rgba(84, 84, 84, 1);
+		color: rgb(255, 255, 255);
+		padding: 6px 10px 6px 10px;
+		border: 2px solid #CCCCCC;
+		border-radius: 2px;
+		position: fixed;
+		top: 68%;
+		left: 50%;
+		font-size: 25px;
+		transition: .5s ease;
+		font-weight: bold;
+		transform: translate(-50%, -50%);
+	}
 
+	#mscbtn:hover {
+		color: #5E5096;
+		background-color: rgba(255, 255, 255, 0.3);
 	}
 }
