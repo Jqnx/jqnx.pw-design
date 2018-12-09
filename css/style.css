@@ -215,7 +215,7 @@ body, html {
 		left: 25%;
 		top: 1%;
 		box-shadow: 0 .35vw .50vw 0 rgba(0, 0, 0, 0.2), 0 .30vw 1.3vw 0 rgba(0, 0, 0, 0.19);
-		border-radius: 5px;
+		border-radius: 100px;
 	}
 
 	.topnav a {
