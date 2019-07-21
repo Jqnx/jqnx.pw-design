@@ -223,6 +223,7 @@ body, html {
 		transition: .5s ease;
 		font-weight: bold;
 		transform: translate(-50%, -50%);
+		display: none;
 	}
 
 	#mscbtn:hover {
@@ -276,6 +277,10 @@ body, html {
 	}
 
 	.topnav > a {
+		display: none;
+	}
+
+	#mscbtn {
 		display: none;
 	}
 
@@ -340,7 +345,7 @@ body, html {
 		border: 2px solid #CCCCCC;
 		border-radius: 2px;
 		position: fixed;
-		top: 66%;
+		top: 75vh;
 		left: 50%;
 		font-size: 25px;
 		transition: .5s ease;
@@ -385,7 +390,7 @@ body, html {
 		border: 2px solid #CCCCCC;
 		border-radius: 2px;
 		position: fixed;
-		top: 68%;
+		top: 75vh;
 		left: 50%;
 		font-size: 25px;
 		transition: .5s ease;
@@ -439,7 +444,7 @@ body, html {
 		border: 2px solid #CCCCCC;
 		border-radius: 2px;
 		position: fixed;
-		top: 68%;
+		top: 75vh;
 		left: 50%;
 		font-size: 25px;
 		transition: .5s ease;
@@ -450,5 +455,17 @@ body, html {
 	#mscbtn:hover {
 		color: #5E5096;
 		background-color: rgba(255, 255, 255, 0.3);
+		width: 250px;
+		height: 150px;
+		font-size: 50px;
+		text-align: center;
+	}
+}
+
+/* Height below 600px*/
+@media only screen and (max-height: 620px) {
+
+	#mscbtn {
+		display: none;
 	}
 }
