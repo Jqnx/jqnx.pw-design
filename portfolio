@@ -20,9 +20,9 @@
     <div class="bgimage img4"></div>
 
     <div class="topnav">
-  	  <a href="index.html">Home</a>
-  	  <a class="active" href="portfolio.html">Portfolio</a>
-  	  <a href="amv.html">AMV</a>
+  	  <a href="index">Home</a>
+  	  <a class="active" href="portfolio">Portfolio</a>
+  	  <a href="amv">AMV</a>
   	</div>
   </body>
 

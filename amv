@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Jqnx - AMV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+  	<link rel="stylesheet" type="text/css" href="css/amv.css">
+    <link rel="shortcut icon" href="css/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="css/favicon.ico" type="image/x-icon">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+    <div class="topnav">
+      <a href="index">Home</a>
+      <a href="portfolio">Portfolio</a>
+      <a class="active" href="amv">AMV</a>
+      </a>
+    </div>
+
+    <div class="video_container">
+      <video autoplay loop id="video">
+      </video>
+    </div>
+
+    <div class="footer">
+      <p>All video credits go to SenpieX, TheAnimeBlock and Blue Flash.</p>
+    </div>
+
+    <script type="text/javascript" src="js/video.js"></script>
+  </body>
+</html>
