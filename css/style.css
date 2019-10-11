@@ -106,6 +106,7 @@ body, html {
 .img8 { background-image: url("img/10.jpg"); }
 .img9 { background-image: url("img/5.jpg"); }
 .img10 { background-image: url("img/6.png"); }
+.img11 { background-image: url("img/15.jpg");}
 
 .box {
 	background-color: rgb(0, 0, 0); /* Fallback Color */
@@ -132,7 +133,7 @@ body, html {
 }
 
 #first-name:hover {
-	color: #EA476D;
+	color: rgb(81, 178, 211);
 }
 
 #last-name {
@@ -147,7 +148,7 @@ body, html {
 }
 
 #last-name:hover {
-	color: rgba(221, 160, 221, 1);
+	color: rgb(233, 106, 37);
 }
 
 /*Custom Scrollbar*/
@@ -200,13 +201,12 @@ body, html {
 	}
 
 	#first-name {
-			font-size: 90px;
-			top: -6%;
+			font-size: 110px;
+			top: -11%;
 	}
 
 	#last-name {
-			font-size: 40px;
-			top: 51%;
+			display: none;
 	}
 
 	#mscbtn {
@@ -318,7 +318,7 @@ body, html {
 	}
 
 	.topnav a.active {
-		background-color: rgba(221, 160, 221, 1);
+		background-color: rgba(99, 137, 174, 1);
 		color: white;
 	}
 
@@ -455,9 +455,9 @@ body, html {
 	#mscbtn:hover {
 		color: #5E5096;
 		background-color: rgba(255, 255, 255, 0.3);
-		width: 250px;
-		height: 150px;
-		font-size: 50px;
+		width: 350px;
+		height: 75px;
+		font-size: 40px;
 		text-align: center;
 	}
 }
